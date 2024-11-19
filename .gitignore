@@ -1,2 +1,6 @@
 */img/
+
+# Ignore all contents inside dataset folders
 **/dataset/*
+# Exclude (unignore) the dataset folder itself
+!**/dataset/
