@@ -9,7 +9,7 @@ path = os.getcwd()
 yaml_path = os.path.join(path, "config.yaml")
 model.train(
     data=yaml_path,  # Path to the data configuration file
-    epochs=100,         # Number of training epochs
+    epochs=25,         # Number of training epochs
     imgsz=640,         # Image size
     batch=16,          # Batch size
     device="cpu"           # GPU device (use 'cpu' for CPU training)
