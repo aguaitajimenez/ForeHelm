@@ -24,9 +24,10 @@ def main():
     cap.set(cv2.CAP_PROP_FRAME_WIDTH, frame_width)
     cap.set(cv2.CAP_PROP_FRAME_HEIGHT, frame_height)
 
-    # Load YOLO model
+    # Load YOLO model ncnn format
     # model_name = "trainin7g0_25epochs.pt"
-    model_name = "yolo11n.pt"
+    model_name = "yolo11n_ncnn_model"
+    # model_name = "yolo11n.pt"
     model = YOLO(model_name)
     class_names = model.names  # Access class names from the model
 
