@@ -12,7 +12,7 @@ def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="YOLOv8 multi-camera live detection")
     parser.add_argument(
         "--webcam-resolution", 
-        default=[640, 420],
+        default=[640, 640],
         nargs=2, 
         type=int,
         help="Resolution for the webcams in [width height] format."
@@ -34,7 +34,7 @@ def camera_thread(camera_id, frame_width, frame_height, frame_queue):
         return
 
     # Load YOLO model (individual instance per thread)
-    model = YOLO("yolov11n.pt")
+    model = YOLO("yolo11n.pt")
     class_names = model.names  # Access class names from the model
     prev_time = time.time()  # For FPS calculation
 
