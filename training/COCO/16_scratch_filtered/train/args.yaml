@@ -2,13 +2,13 @@ task: detect
 mode: train
 model: yolo11n.yaml
 data: train_filtered.yaml
-epochs: 100
+epochs: 200
 time: null
 patience: 10
 batch: 16
 imgsz: 640
 save: true
-save_period: 5
+save_period: -1
 cache: false
 device: null
 workers: 8
@@ -24,7 +24,7 @@ single_cls: false
 rect: false
 cos_lr: false
 close_mosaic: 10
-resume: null
+resume: false
 amp: true
 fraction: 1.0
 profile: false
@@ -103,4 +103,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: 16_scratch_filtered/train
+save_dir: 16_scratch_filtered\train
