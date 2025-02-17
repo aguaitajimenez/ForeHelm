@@ -3,5 +3,5 @@
 venv/
 
 # Ignore all contents inside dataset folders
-dataset/**/*.jpg
-dataset/**/*.txt
+**/dataset/**/*
+
