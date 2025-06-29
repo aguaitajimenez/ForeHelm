@@ -1,0 +1,30 @@
+# 10/10 iterations complete ✅ (39631.68s)
+# Results saved to tunings\tuning4\tune4
+# Best fitness=0.26832 observed at iteration 9
+# Best fitness metrics are {'metrics/precision(B)': 0.54825, 'metrics/recall(B)': 0.39081, 'metrics/mAP50(B)': 0.41695, 'metrics/mAP50-95(B)': 0.2518, 'val/box_loss': 1.43394, 'val/cls_loss': 1.87039, 'val/dfl_loss': 1.29858, 'fitness': 0.26832}
+# Best fitness model is tunings\tuning4\train16
+# Best fitness hyperparameters are printed below.
+
+lr0: 0.01079
+lrf: 0.01234
+momentum: 0.89552
+weight_decay: 0.0006
+warmup_epochs: 2.71599
+warmup_momentum: 0.5897
+box: 6.19508
+cls: 0.54505
+dfl: 1.22655
+hsv_h: 0.01098
+hsv_s: 0.6426
+hsv_v: 0.44769
+degrees: 0.0
+translate: 0.10228
+scale: 0.32917
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.39057
+bgr: 0.0
+mosaic: 0.61952
+mixup: 0.0
+copy_paste: 0.0

@@ -1,0 +1,9 @@
+*/img/
+.venv/
+venv/
+
+# Ignore all contents inside dataset folders
+**/dataset/**/*
+**/datasets/**/*
+
+training/**/predictions.json

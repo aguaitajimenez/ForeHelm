@@ -1,0 +1,30 @@
+
+Benchmarks complete for models/yolo11n/train/weights/yolo11n.pt on train.yaml at imgsz=640 (794.93s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0   NCNN       ✅       10.2               0.4457                   52.23  19.15
+
+Benchmarks complete for models/base_16/train/weights/best.pt on train_filtered.yaml at imgsz=640 (435.72s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0   NCNN       ✅       10.0               0.5242                   53.25  18.78
+
+Benchmarks complete for models/base_X/train/weights/best.pt on train_filtered.yaml at imgsz=640 (504.49s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0   NCNN       ✅       10.0               0.5283                   62.81  15.92
+
+Benchmarks complete for models/tuned1_16/train/weights/best.pt on train_filtered.yaml at imgsz=640 (547.64s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0   NCNN       ✅       10.0               0.5158                   68.08  14.69
+
+Benchmarks complete for models/tuned1_X/train/weights/best.pt on train_filtered.yaml at imgsz=640 (559.79s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0   NCNN       ✅       10.0               0.5321                   69.63  14.36
+
+Benchmarks complete for models/tuned2_X/train/weights/best.pt on train_filtered.yaml at imgsz=640 (550.00s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0   NCNN       ✅       10.0               0.5358                   68.44  14.61

@@ -1,0 +1,30 @@
+# 64/300 iterations complete ✅ (361878.74s)
+# Results saved to hyperparam_tuning2\tune
+# Best fitness=0.32708 observed at iteration 76
+# Best fitness metrics are None
+# Best fitness model is None
+# Best fitness hyperparameters are printed below.
+
+lr0: 0.00349
+lrf: 0.00968
+momentum: 0.94728
+weight_decay: 0.0008
+warmup_epochs: 2.03459
+warmup_momentum: 0.95
+box: 2.58923
+cls: 0.49554
+dfl: 1.60992
+hsv_h: 0.02308
+hsv_s: 0.38871
+hsv_v: 0.31677
+degrees: 0.0
+translate: 0.10774
+scale: 0.30077
+shear: 0.0
+perspective: 0.0
+flipud: 0.0
+fliplr: 0.41596
+bgr: 0.0
+mosaic: 0.79305
+mixup: 0.0
+copy_paste: 0.0
